@@ -1,0 +1,24 @@
+{
+  "originHash" : "aee2954f783ba2bc5456d7a7d50bf027b96b7218356868f07705d9959dc9e448",
+  "pins" : [
+    {
+      "identity" : "gltfkit2",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/warrenm/GLTFKit2",
+      "state" : {
+        "revision" : "287ca203e23d32bc69cb1ae771eaaa9f70ca741a",
+        "version" : "0.5.15"
+      }
+    },
+    {
+      "identity" : "svgview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/exyte/SVGView",
+      "state" : {
+        "revision" : "6465962facdd25cb96eaebc35603afa2f15d2c0d",
+        "version" : "1.0.6"
+      }
+    }
+  ],
+  "version" : 3
+}
