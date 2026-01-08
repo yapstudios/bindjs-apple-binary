@@ -19,8 +19,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "BindJS",
-            url: "https://github.com/yapstudios/bindjs-apple-binary/releases/download/1.0.3/BindJS.xcframework.zip",
-            checksum: "43059673d409abfcb67e62ddeb7b27ee0e84e0287ed30b50b1c8f9a99fb0d106"
+            url: "https://github.com/yapstudios/bindjs-apple-binary/releases/download/1.0.4/BindJS.xcframework.zip",
+            checksum: "1f8489c113fbabdecbcfb19b5a12c93db0751c078b630542e25e68bc725e5020"
         ),
         .target(name: "BindJSDependencies", dependencies: [
             .product(name: "SVGViewKit", package: "SVGView"),
