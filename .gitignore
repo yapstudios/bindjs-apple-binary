@@ -1,5 +1,4 @@
 .DS_Store
-/.build
-.swiftpm/xcode/package.xcworkspace/xcuserdata
+.build
+.swiftpm
 .netrc
-.swiftpm/xcode/xcuserdata
