@@ -13,17 +13,17 @@ let package = Package(
         .library(name: "BindJS", targets: ["BindJS", "BindJSDependencies"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/exyte/SVGView", from: "1.0.6"),
+        .package(url: "https://github.com/yapstudios/SVGView.git", from: "1.0.7"),
         .package(url: "https://github.com/warrenm/GLTFKit2", from: "0.5.11")
     ],
     targets: [
         .binaryTarget(
             name: "BindJS",
-            url: "https://github.com/user-attachments/files/24442507/BindJS.xcframework.zip",
-            checksum: "c5118d4f1c3191f3662e1e950ae3fe91c14e9cc02de925f9cd598b39427fdb50"
+            url: "https://github.com/yapstudios/bindjs-apple-binary/releases/download/1.0.3/BindJS.xcframework.zip",
+            checksum: "43059673d409abfcb67e62ddeb7b27ee0e84e0287ed30b50b1c8f9a99fb0d106"
         ),
         .target(name: "BindJSDependencies", dependencies: [
-            .product(name: "SVGView", package: "SVGView"),
+            .product(name: "SVGViewKit", package: "SVGView"),
             .product(name: "GLTFKit2", package: "GLTFKit2")
         ]),
     ]
