@@ -1,22 +1,12 @@
 {
-  "originHash" : "d1ecd73b598409e64897a11ee9cd44cc29d61e5f564b59d72b32821c700d5e43",
+  "originHash" : "9201b3cdbb4d0e1d6e95b74386b1cf11c12384888c45bbf2583ab8cb35713b02",
   "pins" : [
     {
       "identity" : "gltfkit2",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/warrenm/GLTFKit2",
       "state" : {
-        "revision" : "287ca203e23d32bc69cb1ae771eaaa9f70ca741a",
-        "version" : "0.5.15"
-      }
-    },
-    {
-      "identity" : "svgview",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/yapstudios/SVGView.git",
-      "state" : {
-        "revision" : "5266e544b93ce541b195d21be3a917f7d5fcbc87",
-        "version" : "1.0.7"
+        "revision" : "e69e354c4f31ea07b7816b8cbe2ddb28e897d073"
       }
     }
   ],

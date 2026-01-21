@@ -15,7 +15,7 @@ let package = Package(
     dependencies: [
         // GLTFKit2 is a binary framework that must be provided separately
         // (SVGViewKit is statically linked into BindJS.framework, so not needed here)
-        .package(url: "https://github.com/warrenm/GLTFKit2", from: "0.5.11")
+        .package(url: "https://github.com/warrenm/GLTFKit2", revision: "e69e354c4f31ea07b7816b8cbe2ddb28e897d073")
     ],
     targets: [
         .binaryTarget(
