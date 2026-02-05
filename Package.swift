@@ -20,8 +20,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "BindJS",
-            url: "https://github.com/yapstudios/bindjs-apple-binary/releases/download/1.0.5/BindJS.xcframework.zip",
-            checksum: "dc9c134cec40113734f0e1e3295f1281d2ea6704eb6cdd185a4e58816246bdf3"
+            url: "https://github.com/yapstudios/bindjs-apple-binary/releases/download/1.0.8/BindJS.xcframework.zip",
+            checksum: "8b425e45a1dfef3a78fb4eafcc602040c7359b6f9ce604f8ff71e9d775637258"
         ),
         .target(name: "BindJSDependencies", dependencies: [
             .product(name: "GLTFKit2", package: "GLTFKit2")
